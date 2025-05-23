@@ -1,0 +1,17 @@
+@keyframes success {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); background-color: #86efac; }
+}
+
+@keyframes error {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); background-color: #fca5a5; }
+}
+
+.animate-success {
+  animation: success 0.5s ease-in-out;
+}
+
+.animate-error {
+  animation: error 0.5s ease-in-out;
+} 
